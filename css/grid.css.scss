@@ -1,0 +1,33 @@
+.Grid {
+  width: 100%;
+  text-align: center;
+  display: block;
+
+  .row {
+    text-align: left;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+  }
+
+  .span10 {
+    width: 10%;
+    display: table-cell;
+  }
+
+  .span25 {
+    width: 25%;
+    display: table-cell;
+  }
+
+  .span50 {
+    width: 50%;
+    display: table-cell;
+  }
+
+  .margin {
+    margin: 2em;
+  }
+
+}

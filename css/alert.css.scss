@@ -1,0 +1,9 @@
+.Alert {
+  background: #ccd9bd;
+  color: #333;
+  padding: 1em 2em;
+  margin: 1em 0;
+  &.error {
+    background: #e18383;
+  }
+}

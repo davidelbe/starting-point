@@ -1,0 +1,34 @@
+form.Form {
+  display: table;
+  width: 100%;
+  .row {
+    display: table-row;
+    label, .fields {
+      padding-bottom: 1em;
+    }
+  }
+  label {
+    display: table-cell;
+    text-align: right;
+    padding-right: 1em;
+    font-size: 0.95em;
+  }
+  .fields {
+    display: table-cell;
+    font-size: 1.2em;
+  }
+
+  .field_with_errors {
+    display: table-cell;
+    text-align: right;
+    padding-right: 1em;
+    label {
+      background: #f97d7d;
+      color: #fff;
+      padding: 3px 6px;
+      text-align: right;
+      display: inline-block;
+    }
+  }
+
+}

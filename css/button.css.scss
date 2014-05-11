@@ -1,0 +1,13 @@
+.Button {
+  background: #ccc;
+  border-radius: 1px;
+  border: 1px #666 solid;
+  text-align: center;
+  padding: 0.5em 1em;
+  color: #333;
+  text-decoration: none;
+  &.primary {
+    background: #33429a;
+    color: #fff;
+  }
+}
