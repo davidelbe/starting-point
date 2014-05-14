@@ -12,10 +12,12 @@ form.Form {
     text-align: right;
     padding-right: 1em;
     font-size: 0.95em;
+    white-space: nowrap;
   }
   .fields {
     display: table-cell;
     font-size: 1.2em;
+    width: 90%;
   }
 
   .field_with_errors {
