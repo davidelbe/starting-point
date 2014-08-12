@@ -1,3 +1,4 @@
+
 .Grid {
   width: 100%;
   text-align: center;
@@ -11,23 +12,44 @@
     overflow: hidden;
   }
 
-  .span10 {
+  [class*='col-'] {
+    float: left;
+    min-height: 1px;
+  }
+
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .col-10 {
     width: 10%;
-    display: table-cell;
   }
 
-  .span25 {
+  .col-25 {
     width: 25%;
-    display: table-cell;
   }
 
-  .span50 {
+  .col-50 {
     width: 50%;
-    display: table-cell;
+  }
+
+  .col-75 {
+    width: 75%;
+  }
+
+  .col-100 {
+    width: 100%;
   }
 
   .margin {
     margin: 2em;
   }
 
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
